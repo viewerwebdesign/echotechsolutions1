@@ -384,7 +384,7 @@ ul.service-list li i
     width:100%;
     height:100%;
     padding: 59px 30px;
-    background-color: #5dab40;
+    background-color: #18C8B5;
     backface-visibility:hidden;
     -webkit-transform:rotateY(-180deg);
     -moz-transform:rotateY(-180deg);
@@ -411,19 +411,41 @@ ul.service-list li i
     transform:rotateY(0)
 }
 
+.img-responsive{
+    width: 100%;
+    height: 25em;
+}
+
+
 /*//////FORMULARIO DE CONTACTO//////*/
 
 form{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 450px;
+    width: 1200px;
     margin: auto;
-    background: rgba(255, 255, 100, 0.5);
-    padding: 10px 20px;
+    background: #0091a117;
     box-sizing: border-box;
     margin-top: 20px;
     border-radius: 20px;
+}
+.contenedor-formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    margin-top: 0;
+}
+.msj-boton{
+    display: flex;
+    flex-direction: column;  
 }
 
 form h2{
@@ -435,7 +457,7 @@ form h2{
 }
 
 input, textarea{
-    width: 100%;
+    width: 500px;
     margin-bottom: 20px;
     padding: 7px;
     box-sizing: border-box;
@@ -454,17 +476,19 @@ textarea{
 .boton-form{
     border-radius: 3%;
     background-color: white;
-    padding: 20px;
+    padding: 23px;
     font-weight: 900;
     text-align: center;
     width: 100%;
 }
 
 .boton-form:hover{
-    background-color: rgb(236, 236, 169);
+    background-color: rgb(45, 141, 136);
     cursor: pointer;
+    color: white;
     
 }
+
 
 
 
@@ -547,7 +571,7 @@ textarea{
         text-align: center;
     }
 
-    .footer h2{
+    footer h2{
         margin: 3%;
     }
 
@@ -568,9 +592,85 @@ textarea{
         transition: 0.3s;
     }
     .fa-whatsapp{
-        font-size: 3em;
+        font-size: 2em;
         color: white;
     }
+
+    /*//////FORMULARIO DE CONTACTO//////*/
+
+    form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 320px;
+        margin: auto;
+        background: #0091a117;
+        box-sizing: border-box;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    .contenedor-formulario{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        margin: 25px;
+        margin-top: 0;
+    }
+    .msj-boton{
+        display: flex;
+        flex-direction: column;  
+        justify-content: right;
+    }
+
+    form h2{
+        color: white;
+        margin-top: 3%;
+        font-weight: 900;
+        font-size: 2em;
+        text-align: center;
+        text-decoration: underline 5px;
+    }
+
+    input, textarea{
+        width: 250px;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 17px;
+    }
+    textarea{
+        max-width: 100%;
+        margin-left: 8%;
+        color: rgb(0, 0, 0);
+        font-weight: 900;
+        border: none;
+    }
+
+    .boton-form{
+        border-radius: 3%;
+        background-color: white;
+        padding: 15px;
+        font-weight: 900;
+        margin-left: 7%;
+        text-align: center;
+        width: 79.5%;
+    }
+
+    .boton-form:hover{
+        background-color: rgb(45, 141, 136);
+        cursor: pointer;
+        color: white;
+        
+    }
+
+
+
 
     .desarrollado{
         display: flex;
@@ -661,13 +761,14 @@ textarea{
     /*section 3 */
 
     footer{
-        background-color: #64C25E;
-       text-align: center;margin-bottom: auto;
+        background-color: black;
+        text-align: center;
     }
 
     footer h2{
         margin: 3%;
     }
+
     
     .container-boton{
         background-color: #35a835fd;
@@ -685,8 +786,80 @@ textarea{
         transition: 0.3s;
     }
     .fa-whatsapp{
-        font-size: 3em;
+        font-size: 2em;
         color: white;
+    }
+     /*//////FORMULARIO DE CONTACTO//////*/
+
+     form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 320px;
+        margin: auto;
+        background: #0091a117;
+        box-sizing: border-box;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    .contenedor-formulario{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        margin: 25px;
+        margin-top: 0;
+    }
+    .msj-boton{
+        display: flex;
+        flex-direction: column;  
+        justify-content: right;
+    }
+
+    form h2{
+        color: white;
+        margin-top: 3%;
+        font-weight: 900;
+        font-size: 2em;
+        text-align: center;
+        text-decoration: underline 5px;
+    }
+
+    input, textarea{
+        width: 250px;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 17px;
+    }
+    textarea{
+        max-width: 100%;
+        margin-left: 8%;
+        color: rgb(0, 0, 0);
+        font-weight: 900;
+        border: none;
+    }
+
+    .boton-form{
+        border-radius: 3%;
+        background-color: white;
+        padding: 15px;
+        font-weight: 900;
+        margin-left: 7%;
+        text-align: center;
+        width: 79.5%;
+    }
+
+    .boton-form:hover{
+        background-color: rgb(45, 141, 136);
+        cursor: pointer;
+        color: white;
+        
     }
 
     .desarrollado{
@@ -763,15 +936,16 @@ textarea{
     }
     /*section 3 */
 
+   
     footer{
         background-color: black;
-       text-align: center;margin-bottom: auto;
+        text-align: center;
     }
 
-    
     footer h2{
         margin: 3%;
     }
+
     
     .container-boton{
         background-color: #35a835fd;
@@ -789,8 +963,80 @@ textarea{
         transition: 0.3s;
     }
     .fa-whatsapp{
-        font-size: 3em;
+        font-size: 2em;
         color: white;
+    }
+     /*//////FORMULARIO DE CONTACTO//////*/
+
+     form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 320px;
+        margin: auto;
+        background: #0091a117;
+        box-sizing: border-box;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    .contenedor-formulario{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        margin: 25px;
+        margin-top: 0;
+    }
+    .msj-boton{
+        display: flex;
+        flex-direction: column;  
+        justify-content: right;
+    }
+
+    form h2{
+        color: white;
+        margin-top: 3%;
+        font-weight: 900;
+        font-size: 2em;
+        text-align: center;
+        text-decoration: underline 5px;
+    }
+
+    input, textarea{
+        width: 250px;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 17px;
+    }
+    textarea{
+        max-width: 100%;
+        margin-left: 8%;
+        color: rgb(0, 0, 0);
+        font-weight: 900;
+        border: none;
+    }
+
+    .boton-form{
+        border-radius: 3%;
+        background-color: white;
+        padding: 15px;
+        font-weight: 900;
+        margin-left: 7%;
+        text-align: center;
+        width: 79.5%;
+    }
+
+    .boton-form:hover{
+        background-color: rgb(45, 141, 136);
+        cursor: pointer;
+        color: white;
+        
     }
 
     .desarrollado{
@@ -877,19 +1123,17 @@ textarea{
     }
     /*section 3 */
 
+   
     footer{
         background-color: black;
-       text-align: center;
-       margin-bottom: auto;
-       
+        text-align: center;
     }
 
-    
     footer h2{
         margin: 3%;
     }
+
     
-   
     .container-boton{
         background-color: #35a835fd;
         position: fixed;
@@ -906,8 +1150,80 @@ textarea{
         transition: 0.3s;
     }
     .fa-whatsapp{
-        font-size: 3em;
+        font-size: 2em;
         color: white;
+    }
+     /*//////FORMULARIO DE CONTACTO//////*/
+
+     form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 900px;
+        margin: auto;
+        background: #0091a117;
+        box-sizing: border-box;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    .contenedor-formulario{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        margin: 25px;
+        margin-top: 0;
+    }
+    .msj-boton{
+        display: flex;
+        flex-direction: column;  
+        justify-content: right;
+    }
+
+    form h2{
+        color: white;
+        margin-top: 3%;
+        font-weight: 900;
+        font-size: 2em;
+        text-align: center;
+        text-decoration: underline 5px;
+    }
+
+    input, textarea{
+        width: 250px;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 17px;
+    }
+    textarea{
+        max-width: 100%;
+        margin-left: 8%;
+        color: rgb(0, 0, 0);
+        font-weight: 900;
+        border: none;
+    }
+
+    .boton-form{
+        border-radius: 3%;
+        background-color: white;
+        padding: 15px;
+        font-weight: 900;
+        margin-left: 7%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .boton-form:hover{
+        background-color: rgb(45, 141, 136);
+        cursor: pointer;
+        color: white;
+        
     }
 
     .desarrollado{
@@ -994,19 +1310,20 @@ textarea{
     }
     /*section 3 */
 
+    
+   
     footer{
         background-color: black;
-       text-align: center;
-       margin-bottom: auto;
+        text-align: center;
     }
 
-    
     footer h2{
         margin: 3%;
     }
+
     
     .container-boton{
-        background-color: #315a31fd;
+        background-color: #35a835fd;
         position: fixed;
         z-index: 999;
         border-radius: 50%;
@@ -1021,9 +1338,82 @@ textarea{
         transition: 0.3s;
     }
     .fa-whatsapp{
-        font-size: 3em;
+        font-size: 2em;
         color: white;
     }
+     /*//////FORMULARIO DE CONTACTO//////*/
+
+     form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 900px;
+        margin: auto;
+        background: #0091a117;
+        box-sizing: border-box;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    .contenedor-formulario{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        margin: 25px;
+        margin-top: 0;
+    }
+    .msj-boton{
+        display: flex;
+        flex-direction: column;  
+        justify-content: right;
+    }
+
+    form h2{
+        color: white;
+        margin-top: 3%;
+        font-weight: 900;
+        font-size: 2em;
+        text-align: center;
+        text-decoration: underline 5px;
+    }
+
+    input, textarea{
+        width: 250px;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 17px;
+    }
+    textarea{
+        max-width: 100%;
+        margin-left: 8%;
+        color: rgb(0, 0, 0);
+        font-weight: 900;
+        border: none;
+    }
+
+    .boton-form{
+        border-radius: 3%;
+        background-color: white;
+        padding: 15px;
+        font-weight: 900;
+        margin-left: 7%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .boton-form:hover{
+        background-color: rgb(45, 141, 136);
+        cursor: pointer;
+        color: white;
+        
+    }
+
 
     .desarrollado{
         display: flex;
@@ -1110,15 +1500,17 @@ textarea{
 
     /*section 3 */
 
+    
+   
     footer{
         background-color: black;
-       text-align: center;
+        text-align: center;
     }
 
-    
     footer h2{
         margin: 3%;
     }
+
     
     .container-boton{
         background-color: #35a835fd;
@@ -1136,9 +1528,82 @@ textarea{
         transition: 0.3s;
     }
     .fa-whatsapp{
-        font-size: 3em;
+        font-size: 2em;
         color: white;
     }
+     /*//////FORMULARIO DE CONTACTO//////*/
+
+     form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 900px;
+        margin: auto;
+        background: #0091a117;
+        box-sizing: border-box;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    .contenedor-formulario{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        margin: 25px;
+        margin-top: 0;
+    }
+    .msj-boton{
+        display: flex;
+        flex-direction: column;  
+        justify-content: right;
+    }
+
+    form h2{
+        color: white;
+        margin-top: 3%;
+        font-weight: 900;
+        font-size: 2em;
+        text-align: center;
+        text-decoration: underline 5px;
+    }
+
+    input, textarea{
+        width: 350px;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 17px;
+    }
+    textarea{
+        max-width: 100%;
+        margin-left: 8%;
+        color: rgb(0, 0, 0);
+        font-weight: 900;
+        border: none;
+    }
+
+    .boton-form{
+        border-radius: 3%;
+        background-color: white;
+        padding: 15px;
+        font-weight: 900;
+        margin-left: 7%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .boton-form:hover{
+        background-color: rgb(45, 141, 136);
+        cursor: pointer;
+        color: white;
+        
+    }
+
 
     .desarrollado{
         display: flex;
@@ -1244,15 +1709,16 @@ textarea{
     /*section 3 */
 
     footer{
-        background-color:black;
-       text-align: center;margin-bottom: auto; 
+        background-color: black;
+        text-align: center;
+    }
+
+    footer h2{
+        margin: 3%;
+        text-decoration: none;
     }
 
     
-    footer h2{
-        margin: 2%;
-    }
-   
     .container-boton{
         background-color: #35a835fd;
         position: fixed;
@@ -1269,8 +1735,80 @@ textarea{
         transition: 0.3s;
     }
     .fa-whatsapp{
-        font-size: 3em;
+        font-size: 2em;
         color: white;
+    }
+     /*//////FORMULARIO DE CONTACTO//////*/
+
+     form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        background: #0091a117;
+        box-sizing: border-box;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+    .contenedor-formulario{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        margin: 25px;
+        margin-top: 0;
+    }
+    .msj-boton{
+        display: flex;
+        flex-direction: column;  
+        justify-content: right;
+    }
+
+    form h2{
+        color: white;
+        margin-top: 3%;
+        font-weight: 900;
+        font-size: 2em;
+        text-align: center;
+        
+    }
+
+    input, textarea{
+        width: 600px;
+        margin-bottom: 20px;
+        padding: 7px;
+        box-sizing: border-box;
+        font-size: 17px;
+    }
+    textarea{
+        max-width: 100%;
+        margin-left: 8%;
+        color: rgb(0, 0, 0);
+        font-weight: 900;
+        border: none;
+    }
+
+    .boton-form{
+        border-radius: 3%;
+        background-color: white;
+        padding: 15px;
+        font-weight: 900;
+        margin-left: 7%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .boton-form:hover{
+        background-color: rgb(45, 141, 136);
+        cursor: pointer;
+        color: white;
+        
     }
 
     .desarrollado{

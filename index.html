@@ -284,14 +284,15 @@
     <!--Footer-->
 
     <footer id="Contacto">
-        <h2 class="Contacto" id="contacto">CONTACTO</h2>
+        <h2 class="contacto" id="contacto">CONTACTO</h2>
         <div class="links">
             <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/jegsaneamiento/" aria-label="location"><i class="fa-solid fa-location-dot"></i>
             <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/jegsaneamiento/" aria-label="instagram"><i class="fab fa-instagram"></i></a>
             <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/profile.php?id=100063598809358" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>          
-            <a class="btn btn-dark btn-social mx-2" data-statid="click_llamar" data-qname="Jeg" href="tel:2615276096"><i class="fa-solid fa-phone"></i>2615276096</a>
+            <br><br>
+            <a class="btn btn-dark btn-social mx-2" data-statid="click_llamar" data-qname="Jeg" href="tel:34666667769"><i class="fa-solid fa-phone"></i>34666667769</a>
             <br> <br>
-            <a class="btn btn-dark btn-social mx-2" href="https://mail.google.com/mail/u/0/#inbox">ghorno@jegsaneamiento.com.ar</a>
+            <a class="btn btn-dark btn-social mx-2" href="https://mail.google.com/mail/u/0/#inbox">info@ecotechsolutions.es</a>
         </div>
         
         
@@ -302,13 +303,19 @@
         <!--FORMULARIO DE CONTACTO-->
 	
 			<form action="enviar.php" method="post">
-				<h2>CONTACTO</h2>
-				<input type="text" name="nombre" placeholder="Nombre" required >
-				<input type="email" name="email" placeholder="E-mail" required>
-				<input type="tel" name="telefono" placeholder="Teléfono">
-				<input type="text" name="asunto" placeholder="Asunto" required>
-				<textarea name="mensaje" id="" cols="30" rows="5" placeholder="Mensaje" required></textarea>
-				<button type="submit" class="boton-form" value="Enviar">Enviar</button>
+				<h2>ESCRIBINOS</h2>
+                <div class="contenedor-formulario">
+                    <div class="formulario">
+                        <input type="text" name="nombre" placeholder="Nombre" required >
+                        <input type="email" name="email" placeholder="E-mail" required>
+                        <input type="tel" name="telefono" placeholder="Teléfono">
+                        <input type="text" name="asunto" placeholder="Asunto" required>
+                    </div>
+                    <div class="msj-boton">    
+                        <textarea name="mensaje" id="" cols="30" rows="5" placeholder="Mensaje" required></textarea>
+                        <button type="submit" class="boton-form" value="Enviar">Enviar</button>
+                    </div>
+                </div>
 			</form>
 		
 
