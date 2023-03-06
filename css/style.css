@@ -5,7 +5,7 @@
     
 }
 body{
-    background-color: rgb(247, 249, 249);
+    background-color: rgb(248, 249, 250);
     font-family: sans-serif;
     
     
@@ -13,12 +13,12 @@ body{
 
 .btn-dark{
     color: #fff;
-    background-color: #212529;
-    border-color: #212529;
+    background-color: #313336;
+    border-color: #313336;
 }
 hr{
     width: 50%;
-    border: 3px green solid;
+    border: 3px #18C8B5 solid;
     margin: 5% 5% 5% 25%;
 }
 
@@ -83,11 +83,17 @@ section-padding
     max-width: 22rem;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: black 3px 3px 10px;
   }
   #portfolio .portfolio-item .portfolio-link {
     position: relative;
     display: block;
     margin: 0 auto;
+  }
+
+  .portfolio-item img{
+    width: 100%;
+    height: 50vh;
   }
 
   /*color sobre imeagen*/
@@ -97,7 +103,7 @@ section-padding
     position: absolute;
     width: 100%;
     height: 100%;
-    background: rgba(184, 255, 117, 0.9);
+    background: #18C8B5;
     align-items: center;
     justify-content: center;
     opacity: 0;
@@ -114,7 +120,7 @@ section-padding
   #portfolio .portfolio-item .portfolio-caption {
     padding: 1.5rem;
     text-align: center;
-    background-color: #3F4A3C;
+    background-color: black;
   }
   #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
     font-size: 1.3rem;
@@ -196,6 +202,9 @@ h5 {
 }
 
 footer{
+    background-image: url(../imagenes/4884273.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding-top: 0.5%;
 
 }
@@ -210,7 +219,7 @@ footer h2{
 
 /***********************************
 ************************************
-SERVICIOS
+            SERVICIOS
 ************************************
 ***********************************/
 .title, .service-title
@@ -413,7 +422,7 @@ ul.service-list li i
 
 .img-responsive{
     width: 100%;
-    height: 25em;
+    height: 18em;
 }
 
 
@@ -531,6 +540,7 @@ textarea{
     .collapse{
         justify-content:flex-end;
         margin-inline-end: 1%;
+        padding-right: 100%;
     }
     .container-fluid button{
         color: rgb(255, 255, 255);
@@ -730,14 +740,14 @@ textarea{
         
     }
     /*section 1 */
-    .nosotros{
+    .empresa{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;font-family: 'Josefin Sans', sans-serif;  
     
     }
-    .nosotros p{
+    .empresa p{
         text-align: center;
         margin: 2px;font-family: 'Josefin Sans', sans-serif;  
     
@@ -906,14 +916,14 @@ textarea{
         
     }
     /*section 1 */
-    .nosotros{
+    .empresa{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;font-family: 'Josefin Sans', sans-serif;  
     
     }
-    .nosotros p{
+    .empresa p{
         text-align: center;
         margin: 2px;font-family: 'Josefin Sans', sans-serif;  
     
@@ -1094,14 +1104,14 @@ textarea{
     }
 
     /*section 1 */
-    .nosotros{
+    .empresa{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;font-family: 'Josefin Sans', sans-serif;  
     
     }
-    .nosotros p{
+    .empresa p{
         text-align: center;
         margin: 2px;font-family: 'Josefin Sans', sans-serif;  
     
@@ -1272,14 +1282,14 @@ textarea{
         
     }
     /*section 1 */
-    .nosotros{
+    .empresa{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;font-family: 'Josefin Sans', sans-serif;  
     
     }
-    .nosotros p{
+    .empresa p{
         text-align: center;
         margin: 2px;font-family: 'Josefin Sans', sans-serif;  
     
@@ -1439,15 +1449,24 @@ textarea{
         width: 100%;
     }
 
+    .container-fluid a{
+        display: flex;
+        flex-direction: row;
+    }
+    .container-fluid a .icono img {
+        width: 95%;
+        height: 15vh;
+    }
+    .container-fluid a .texto-logo img{
+        width: 90%;
+        height: 17vh;
+    }
     .container-fluid{
         display: flex;
         justify-content: space-between;
     }
-    .container-fluid img{
-        width: 12vw;
-        height: 12vh;
-    }
-
+    
+   
     
     .navbar-nav{
         width: 40%;
@@ -1463,15 +1482,16 @@ textarea{
         font-family: 'Josefin Sans', sans-serif;;
     }
     /*section 1 */
-    .nosotros{
+    .empresa{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;font-family: 'Josefin Sans', sans-serif;
+        font-size: 1.2em;
     }
-    .nosotros p{
+    .empresa p{
         text-align: center;
-        margin: 10px;
+        margin: 15px;
     }
     /*section 2 */
     
@@ -1569,7 +1589,7 @@ textarea{
         font-weight: 900;
         font-size: 2em;
         text-align: center;
-        text-decoration: ;
+        text-decoration: underline 5px;
     }
 
     input, textarea{
@@ -1638,8 +1658,8 @@ textarea{
         justify-content: space-between;
     }
     .container-fluid img{
-        width: 12vw;
-        height: 12vh;
+        width: 100%;
+        height: 10vh;
     }
 
     
@@ -1657,13 +1677,13 @@ textarea{
         color: rgba(255, 255, 255, 0.55);
     }
     /*section 1 */
-    .nosotros{
+    .empresa{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
     }
-    .nosotros p{
+    .empresa p{
         text-align: center;
         margin: 2px;
     }
