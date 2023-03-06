@@ -4,13 +4,8 @@
     padding: 0;
     
 }
-body{
-    background-color: rgb(248, 249, 250);
-    font-family: sans-serif;
-    
-    
+body{background-image: linear-gradient(to left top, #d8dede, #dae0e0, #dbe3e3, #dde5e5, #dfe8e7, #dfeae9, #dfebea, #dfedec, #deefee, #ddf0ef, #dbf2f1, #daf3f3);
 }
-
 .btn-dark{
     color: #fff;
     background-color: #313336;
@@ -192,7 +187,7 @@ h2{
     font-family: 'Josefin Sans', sans-serif;  
     font-weight: 900;
     font-size: 1.5;
-
+color:#0b0a0a;
     text-align: center;
 }
 
@@ -202,7 +197,7 @@ h5 {
 }
 
 footer{
-    background-image: url(../imagenes/4884273.jpg);
+    background-image: linear-gradient(to left top, #020b0b, #112b2b, #154c4a, #166f6a, #15948a, #17948a, #18948b, #1a948b, #1c6f6b, #1b4d4b, #162c2c, #090d0d);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 0.5%;
@@ -462,7 +457,7 @@ form h2{
     font-weight: 900;
     font-size: 3em;
     text-align: center;
-    text-decoration: underline 5px;
+    text-decoration: none;
 }
 
 input, textarea{
@@ -507,7 +502,7 @@ textarea{
 
 @media (min-width: 320px) and (max-width: 575px) {
     .navbar{
-        background-color: black;
+        background-image: linear-gradient(to right bottom, #080b0b, #122b2a, #114a46, #0b6c61, #09907a);
         
     }
     .navbar-dark .navbar-nav .nav-link {
@@ -557,6 +552,7 @@ textarea{
     .empresa p{
         text-align: center;
         margin: 5px;
+        color:black;
     }
     /*section 2 */
     
@@ -614,7 +610,7 @@ textarea{
         flex-direction: column;
         width: 320px;
         margin: auto;
-        background: #0091a117;
+        background:black;
         box-sizing: border-box;
         margin-top: 20px;
         border-radius: 20px;
@@ -688,7 +684,7 @@ textarea{
         flex-wrap: wrap;
         flex-direction: row;
         align-items: flex-start;
-        background-color: #3F4A3C;
+        background-image: linear-gradient(to right bottom, #080b0b, #122b2a, #114a46, #0b6c61, #09907a);
     }
     
 }
@@ -699,7 +695,8 @@ textarea{
 
 @media (min-width: 576px) and (max-width: 767px) {
     .navbar{
-        background-color: black;
+        background-image: linear-gradient(to right bottom, #080b0b, #122b2a, #114a46, #0b6c61, #09907a);background-image: linear-gradient(to left top, #020b0b, #112b2b, #154c4a, #166f6a, #15948a, #17948a, #18948b, #1a948b, #1c6f6b, #1b4d4b, #162c2c, #090d0d);
+
         
     }
     .navbar-dark .navbar-nav .nav-link {
@@ -750,7 +747,7 @@ textarea{
     .empresa p{
         text-align: center;
         margin: 2px;font-family: 'Josefin Sans', sans-serif;  
-    
+        color:black;
     }
     /*section 2 */
     
@@ -837,7 +834,7 @@ textarea{
         font-weight: 900;
         font-size: 2em;
         text-align: center;
-        text-decoration: underline 5px;
+        text-decoration: none;
     }
 
     input, textarea{
@@ -878,7 +875,7 @@ textarea{
         flex-wrap: wrap;
         flex-direction: row;
         align-items: flex-start;
-        background-color: #3F4A3C;
+        background-image: linear-gradient(to right bottom, #080b0b, #122b2a, #114a46, #0b6c61, #09907a);
     }
     
 }
@@ -889,11 +886,12 @@ textarea{
 
 @media (min-width: 768px)  {
     .navbar{
-        background-color: black;
+        background-image: linear-gradient(to right bottom, #080b0b, #122b2a, #114a46, #0b6c61, #09907a);background-image: linear-gradient(to left top, #020b0b, #112b2b, #154c4a, #166f6a, #15948a, #17948a, #18948b, #1a948b, #1c6f6b, #1b4d4b, #162c2c, #090d0d);
+
         
     }
     .navbar-nav{
-        width: 35%;
+        width: 35%; color: #0f0f0f;
     }
 
     .navbar-toggler {
@@ -984,7 +982,7 @@ textarea{
         flex-direction: column;
         width: 320px;
         margin: auto;
-        background: #0091a117;
+        background:black;
         box-sizing: border-box;
         margin-top: 20px;
         border-radius: 20px;
@@ -1014,7 +1012,7 @@ textarea{
         font-weight: 900;
         font-size: 2em;
         text-align: center;
-        text-decoration: underline 5px;
+        text-decoration:none;
     }
 
     input, textarea{
@@ -1055,7 +1053,7 @@ textarea{
         flex-wrap: wrap;
         flex-direction: row;
         align-items: flex-start;
-        background-color: #3F4A3C;
+        background-image: linear-gradient(to right bottom, #080b0b, #122b2a, #114a46, #0b6c61, #09907a);
     }
     
 }
@@ -1067,7 +1065,7 @@ textarea{
 @media (min-width: 992px)  {
     .navbar{
         display: block;
-        background-color: black;
+        background-image: linear-gradient(to right bottom, #080b0b, #122b2a, #114a46, #0b6c61, #09907a);
         font-family: 'Courier New', Courier, monospace;
         position: fixed;
         z-index: 999;
@@ -1171,10 +1169,10 @@ textarea{
         flex-direction: column;
         width: 900px;
         margin: auto;
-        background: #0091a117;
+        background: black;
         box-sizing: border-box;
         margin-top: 20px;
-        border-radius: 20px;
+        border-radius: 20px; color: #0f0f0f;
     }
     .contenedor-formulario{
         display: flex;
@@ -1201,7 +1199,7 @@ textarea{
         font-weight: 900;
         font-size: 2em;
         text-align: center;
-        text-decoration: underline 5px;
+        text-decoration: none;
     }
 
     input, textarea{
@@ -1242,7 +1240,7 @@ textarea{
         flex-wrap: wrap;
         flex-direction: row;
         align-items: flex-start;
-        background-color: #3F4A3C;
+        background-image: linear-gradient(to right bottom, #080b0b, #122b2a, #114a46, #0b6c61, #09907a);
     }
     
 }
@@ -1253,11 +1251,12 @@ textarea{
 
 @media (min-width: 1024px)  {
     .navbar{
-        background-color: black;
+        background-image: linear-gradient(to right bottom, #080b0b, #122b2a, #114a46, #0b6c61, #09907a);
         font-family: 'Courier New', Courier, monospace;
         position: fixed;
         z-index: 999;
         width: 100%;
+         color: #0f0f0f;
     }
 
     .container-fluid{
@@ -1359,7 +1358,7 @@ textarea{
         flex-direction: column;
         width: 900px;
         margin: auto;
-        background: #0091a117;
+        background:black;
         box-sizing: border-box;
         margin-top: 20px;
         border-radius: 20px;
@@ -1389,7 +1388,7 @@ textarea{
         font-weight: 900;
         font-size: 2em;
         text-align: center;
-        text-decoration: underline 5px;
+        text-decoration: none;
     }
 
     input, textarea{
@@ -1431,7 +1430,7 @@ textarea{
         flex-wrap: wrap;
         flex-direction: row;
         align-items: flex-start;
-        background-color: #3F4A3C;
+        background-image: linear-gradient(to right bottom, #080b0b, #122b2a, #114a46, #0b6c61, #09907a);
     }
     
 }
@@ -1441,10 +1440,9 @@ textarea{
 /*********************/
 
 @media (min-width: 1200px)  {
-    .navbar{
-        background-color: black;
-        font-family: 'Courier New', Courier, monospace;
-        position: fixed;
+    .navbar{background-image: linear-gradient(to right bottom, #080b0b, #122b2a, #114a46, #0b6c61, #09907a);
+
+        position: fixed ;
         z-index: 999;
         width: 100%;
     }
@@ -1478,7 +1476,7 @@ textarea{
         
     }
     .navbar-dark .navbar-nav .nav-link {
-        color: #FFFFFF;
+        color: #f9fafa;
         font-family: 'Josefin Sans', sans-serif;;
     }
     /*section 1 */
@@ -1492,6 +1490,7 @@ textarea{
     .empresa p{
         text-align: center;
         margin: 15px;
+        color:black;
     }
     /*section 2 */
     
@@ -1523,7 +1522,7 @@ textarea{
     
    
     footer{
-        background-color: black;
+        background-image: linear-gradient(to left top, #020b0b, #112b2b, #154c4a, #166f6a, #15948a, #17948a, #18948b, #1a948b, #1c6f6b, #1b4d4b, #162c2c, #090d0d);
         text-align: center;
     }
 
@@ -1559,7 +1558,7 @@ textarea{
         flex-direction: column;
         width: 900px;
         margin: auto;
-        background: #0091a117;
+        background: black;
         box-sizing: border-box;
         margin-top: 20px;
         border-radius: 20px;
@@ -1589,7 +1588,7 @@ textarea{
         font-weight: 900;
         font-size: 2em;
         text-align: center;
-        text-decoration: underline 5px;
+        text-decoration:none;
     }
 
     input, textarea{
@@ -1631,7 +1630,8 @@ textarea{
         flex-wrap: wrap;
         flex-direction: row;
         align-items: flex-start;
-        background-color: #3F4A3C;
+        background-image: linear-gradient(to right bottom, #080b0b, #122b2a, #114a46, #0b6c61, #09907a);
+        color:#FFFFFF;
     }
     
     h5 {
@@ -1646,7 +1646,7 @@ textarea{
 
 @media (min-width: 2100px)  {
     .navbar{
-        background-color: black;
+        background-color: #F1FAFF;
         font-family: 'Courier New', Courier, monospace;
         position: fixed;
         z-index: 999;
@@ -1674,7 +1674,7 @@ textarea{
         
     }
     .navbar-dark .navbar-nav .nav-link {
-        color: rgba(255, 255, 255, 0.55);
+        color: rgba(9, 9, 9, 0.55);
     }
     /*section 1 */
     .empresa{
@@ -1686,6 +1686,7 @@ textarea{
     .empresa p{
         text-align: center;
         margin: 2px;
+         color:#FFFFFF;
     }
     /*section 2 */
   
@@ -1715,6 +1716,7 @@ textarea{
     .sabias p{
         text-align: center;
         margin: 2px;
+        color:#00050a;
     }
 
     .card-body {
@@ -1837,7 +1839,7 @@ textarea{
         flex-wrap: wrap;
         flex-direction: row;
         align-items: flex-start;
-        background-color:#3F4A3C;
+        background-image: linear-gradient(to right bottom, #080b0b, #122b2a, #114a46, #0b6c61, #09907a);
     }
     
     h5 {
