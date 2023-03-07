@@ -78,7 +78,7 @@ section-padding
     max-width: 22rem;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: black 3px 3px 10px;
+    box-shadow: black 4px 3px 10px;
   }
   #portfolio .portfolio-item .portfolio-link {
     position: relative;
@@ -91,7 +91,7 @@ section-padding
     height: 50vh;
   }
 
-  /*color sobre imeagen*/
+  /*color sobre imagen*/
 
   #portfolio .portfolio-item .portfolio-link .portfolio-hover {
     display: flex;
@@ -461,17 +461,16 @@ form h2{
 }
 
 input, textarea{
-    width: 500px;
+    width: 250px;
     margin-bottom: 20px;
     padding: 7px;
     box-sizing: border-box;
     font-size: 17px;
+    
+    margin-left: 8%;
 }
 textarea{
-    min-height: 100px;
-    max-height: 200px;
     max-width: 100%;
-    
     color: rgb(0, 0, 0);
     font-weight: 900;
     border: none;
@@ -636,9 +635,10 @@ textarea{
 
     form h2{
         color: white;
-        margin-top: 3%;
+        margin-top: 4%;
+        margin-bottom: 4%;
         font-weight: 900;
-        font-size: 2em;
+        font-size: 1.5em;
         text-align: center;
         text-decoration: none;
     }
@@ -649,13 +649,14 @@ textarea{
         padding: 7px;
         box-sizing: border-box;
         font-size: 17px;
+        margin-left: 5%;
     }
     textarea{
         max-width: 100%;
-        margin-left: 8%;
         color: rgb(0, 0, 0);
         font-weight: 900;
         border: none;
+        margin-left: 11%;
     }
 
     .boton-form{
@@ -663,9 +664,9 @@ textarea{
         background-color: white;
         padding: 15px;
         font-weight: 900;
-        margin-left: 7%;
-        text-align: center;
-        width: 79.5%;
+        margin-left: 25%;
+        margin-bottom: 2%;
+        width: 50%;
     }
 
     .boton-form:hover{
@@ -843,10 +844,10 @@ textarea{
         padding: 7px;
         box-sizing: border-box;
         font-size: 17px;
+        margin-left: 8%;
     }
     textarea{
         max-width: 100%;
-        margin-left: 8%;
         color: rgb(0, 0, 0);
         font-weight: 900;
         border: none;
