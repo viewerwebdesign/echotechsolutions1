@@ -187,7 +187,7 @@ h2{
     font-family: 'Josefin Sans', sans-serif;  
     font-weight: 900;
     font-size: 1.5;
-color:#0b0a0a;
+    color:#0b0a0a;
     text-align: center;
 }
 
@@ -640,7 +640,7 @@ textarea{
         font-weight: 900;
         font-size: 2em;
         text-align: center;
-        text-decoration: underline 5px;
+        text-decoration: none;
     }
 
     input, textarea{
@@ -695,7 +695,7 @@ textarea{
 
 @media (min-width: 576px) and (max-width: 767px) {
     .navbar{
-        background-image: linear-gradient(to right bottom, #080b0b, #122b2a, #114a46, #0b6c61, #09907a);background-image: linear-gradient(to left top, #020b0b, #112b2b, #154c4a, #166f6a, #15948a, #17948a, #18948b, #1a948b, #1c6f6b, #1b4d4b, #162c2c, #090d0d);
+        background-image: linear-gradient(to right bottom, #080b0b, #122b2a, #114a46, #0b6c61, #09907a);
 
         
     }
@@ -886,7 +886,7 @@ textarea{
 
 @media (min-width: 768px)  {
     .navbar{
-        background-image: linear-gradient(to right bottom, #080b0b, #122b2a, #114a46, #0b6c61, #09907a);background-image: linear-gradient(to left top, #020b0b, #112b2b, #154c4a, #166f6a, #15948a, #17948a, #18948b, #1a948b, #1c6f6b, #1b4d4b, #162c2c, #090d0d);
+        background-image: linear-gradient(to right bottom, #080b0b, #122b2a, #114a46, #0b6c61, #09907a);
 
         
     }
@@ -1430,6 +1430,7 @@ textarea{
         flex-wrap: wrap;
         flex-direction: row;
         align-items: flex-start;
+        color:#daf3f3;
         background-image: linear-gradient(to right bottom, #080b0b, #122b2a, #114a46, #0b6c61, #09907a);
     }
     
@@ -1624,14 +1625,14 @@ textarea{
     }
 
 
-    .desarrollado{
+    .desarrollado {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         flex-direction: row;
         align-items: flex-start;
         background-image: linear-gradient(to right bottom, #080b0b, #122b2a, #114a46, #0b6c61, #09907a);
-        color:#FFFFFF;
+        color:#daf3f3;
     }
     
     h5 {
@@ -1833,12 +1834,13 @@ textarea{
         
     }
 
-    .desarrollado{
+    .desarrollado {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         flex-direction: row;
         align-items: flex-start;
+        color:#daf3f3;
         background-image: linear-gradient(to right bottom, #080b0b, #122b2a, #114a46, #0b6c61, #09907a);
     }
     
