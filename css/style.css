@@ -684,9 +684,15 @@ textarea{
         flex-wrap: wrap;
         flex-direction: row;
         align-items: flex-start;
-        background-image: linear-gradient(to right bottom, #080b0b, #122b2a, #114a46, #0b6c61, #09907a);
-    }
+        margin-top: 5%;
+        padding-top: 1%;
+        background-color: black;
     
+    }
+    a { font-family: Arial, Helvetica, sans-serif;
+        color: #e8e9eb;
+        text-decoration: none;
+    }
 }
 
 /******************************/
@@ -875,9 +881,15 @@ textarea{
         flex-wrap: wrap;
         flex-direction: row;
         align-items: flex-start;
-        background-image: linear-gradient(to right bottom, #080b0b, #122b2a, #114a46, #0b6c61, #09907a);
+        margin-top: 5%;
+        padding-top: 1%;
+        background-color: black;
     }
-    
+
+    a { font-family: Arial, Helvetica, sans-serif;
+        color: #e8e9eb;
+        text-decoration: none;
+    }
 }
 
 /******************************/
@@ -1053,9 +1065,14 @@ textarea{
         flex-wrap: wrap;
         flex-direction: row;
         align-items: flex-start;
-        background-image: linear-gradient(to right bottom, #080b0b, #122b2a, #114a46, #0b6c61, #09907a);
+        margin-top: 5%;
+        padding-top: 1%;
+        background-color: black;
+        }
+    a { font-family: Arial, Helvetica, sans-serif;
+        color: #e8e9eb;
+        text-decoration: none;
     }
-    
 }
 
 /*********************/
@@ -1240,9 +1257,15 @@ textarea{
         flex-wrap: wrap;
         flex-direction: row;
         align-items: flex-start;
-        background-image: linear-gradient(to right bottom, #080b0b, #122b2a, #114a46, #0b6c61, #09907a);
-    }
+        margin-top: 5%;
+        padding-top: 1%;
+        background-color: black;
     
+    }
+    a { font-family: Arial, Helvetica, sans-serif;
+        color: #e8e9eb;
+        text-decoration: none;
+    }
 }
 
 /*********************/
@@ -1261,7 +1284,7 @@ textarea{
 
     .container-fluid{
         display: flex;
-        justify-content: space-between;
+        justify-content:space-around;
     }
     .container-fluid img{
         width: 15vw;
@@ -1271,7 +1294,8 @@ textarea{
     .navbar-dark .navbar-nav .nav-link {
         color: #FFFFFF;
         font-family: 'Josefin Sans', sans-serif;
-        
+        padding: 2px;
+        margin:1% ;justify-content:space-around;
     }
     .navbar-nav{
         width: 52%;
@@ -1432,9 +1456,15 @@ textarea{
         flex-direction: row;
         align-items: flex-start;
         color:#daf3f3;
-        background-image: linear-gradient(to right bottom, #080b0b, #122b2a, #114a46, #0b6c61, #09907a);
+        margin-top: 5%;
+        padding-top: 1%;
+         background-color: black;
+       
     }
-    
+    a { font-family: Arial, Helvetica, sans-serif;
+        color: #e8e9eb;
+        text-decoration: none;
+    }
 }
 
 /*********************/
@@ -1632,10 +1662,15 @@ textarea{
         flex-wrap: wrap;
         flex-direction: row;
         align-items: flex-start;
-        background-image: linear-gradient(to right bottom, #080b0b, #122b2a, #114a46, #0b6c61, #09907a);
-        color:#daf3f3;
+        background-color: black;
+                color:#daf3f3;
+        margin-top: 5%;
+        padding-top: 1%;
     }
-    
+    a { font-family: Arial, Helvetica, sans-serif;
+        color: #e8e9eb;
+        text-decoration: none;
+    }
     h5 {
         font-size: 1.25rem;
         color: white;
@@ -1840,11 +1875,15 @@ textarea{
         flex-direction: row;
         align-items: flex-start;
         color:#daf3f3;
-        background-image: linear-gradient(to right bottom, #080b0b, #122b2a, #114a46, #0b6c61, #09907a);
+        background-color: black;
+                margin-top: 5%;
+        padding-top: 1%;
+    
     }
-    .a{color: #f3f5f7;
-    text-decoration: underline;}
-
+    a { font-family: Arial, Helvetica, sans-serif;
+        color: #e8e9eb;
+        text-decoration: none;
+    }
 
     .h5 {
         font-size: 1.25rem;
